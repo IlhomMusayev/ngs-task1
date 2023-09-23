@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  padding-bottom: 40px;
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b334e;
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+  p {
+    width: 70%;
+    font-size: 16px;
+    color: rgb(93, 93, 93);
+    margin: 20px auto;
+    @media (max-width: 767px) {
+      width: 100%;
+      font-size: 14px;
+    }
+  }
+}

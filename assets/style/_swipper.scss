@@ -1,0 +1,18 @@
+.slide {
+  margin-left: 95px;
+  @media (max-width: 767px) {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .swiper {
+    padding-bottom: 100px;
+    .swiper-button-next {
+      left: 100px;
+      top: 95%;
+    }
+    .swiper-button-prev {
+      right: 100px;
+      top: 95%;
+    }
+  }
+}

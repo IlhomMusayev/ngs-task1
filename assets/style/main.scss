@@ -1,0 +1,32 @@
+@import "header";
+@import "swipper";
+@import "card";
+@import "social";
+@import "filter";
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
